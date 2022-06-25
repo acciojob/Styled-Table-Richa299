@@ -1,1 +1,38 @@
 /* your code */
+.th{
+    text-align: center;
+}
+.th1{
+    background-color:lightskyblue;
+    height: 25px;
+    text-align: center;
+}
+.th2{
+    height: 25px;
+    text-align: center;
+}
+thead{
+    color:black; 
+    background-color:blueviolet; 
+     height: 40px;
+}
+tbody{
+    height: 40px;
+}
+thead tr:first-child th:last-child{
+    border-top-right-radius: 10px;
+}
+thead tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+}
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+table{
+    width:100%; 
+    border-collapse: collapse; 
+    border-top-left-radius:25px;
+}
